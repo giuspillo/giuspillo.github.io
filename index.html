@@ -9,6 +9,20 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+.container_about {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+img {
+  max-width: 300%
+}
+.image_about {
+  flex-basis: 45%
+}
+.text_about {
+  padding-left: 180px;
+}
 </style>
 </head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
@@ -139,12 +153,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   <div class="w3-container w3-padding-large" id="about">
     <div class="w3-col m6">
-      <img src="about.jpg" alt="Me" style="width:60%">
-      <h2><b>About Me</b></h2>
-      <p>
+      <div class="container_about">
+        <div class='image_about'>
+          <img src="about.jpg" alt="Me" style="width:300%">
+        </div>
+        <div class='text_about'>
+          <h2><b>About Me</b></h2>
+          <p>
 
-        <!-- Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. -->
-        I am Giuseppe Spillo, a Ph.D. Student at University of Bari, in the SWAP Research Group, supervised by Prof. Cataldo Musto and Prof. Marco de Gemmis.<br><br>My main research areas are Knowledge-aware Recommender Systems, Multi-Modal Recommender Systems, and Knowledge Representation.<br><br>Check-out my publications if you're interesed in my research!</p>
+        
+          I am Giuseppe Spillo, a Ph.D. Student at University of Bari, in the SWAP Research Group, supervised by Prof. Cataldo Musto and Prof. Marco de Gemmis.<br><br>My main research areas are Knowledge-aware Recommender Systems, Multi-Modal Recommender Systems, and Knowledge Representation.<br><br>Check-out my publications if you're interesed in my research!</p>
+        </div>
+      </div>
     </div>
   </div>
 
