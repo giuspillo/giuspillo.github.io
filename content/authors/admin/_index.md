@@ -19,7 +19,7 @@ role: PhD Student
 # Organizations/Affiliations
 organizations:
 - name: University of Bari, SWAP Research Group
-  url: ""
+  url: "https://swap.di.uniba.it/members/spillo.giuseppe/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Knowledge-aware Recommender Systems
@@ -78,3 +78,5 @@ user_groups:
 My main research areas are Knowledge-aware and Multi-modal Recommender Systems, but I'm also interested to NLP and Environmental Sustainability of AI models.
 
 Check-out my publications if you're interesed in my research!
+
+I'm passionate about video games, especially JRPGs like Final Fantasy, Kingdom Hearts, and the Persona series, though I also enjoy any story-driven game that immerses me in its narrative. Music is another big part of my life—I have a particular love for Italian conscious hip-hop. You can check out two of my favorite playlists [here](https://open.spotify.com/playlist/3cyrrvO4NQJ2QltWZj9fcQ?si=25fd11eda6904e6d) and [here](https://open.spotify.com/playlist/6XD8FRafFYVe7VOjbssWgQ?si=0e8ff73cc351401a). When I'm not gaming or exploring music, I like to dabble in drumming—though I’ll admit I’m more enthusiastic than skilled!
