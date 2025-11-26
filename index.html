@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G. Spillo - Academic Portfolio</title>
     <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -286,6 +287,11 @@
                 padding: 1.5rem;
             }
         }
+
+
+            
+
+
     </style>
 </head>
 <body>
@@ -315,6 +321,224 @@
                 <img src="images/profile.jpeg" alt="Your Name">
             </div>
         </div>
+
+
+<!-- Latest Talk Section -->
+<section class="latest-talk-section">
+  <div class="container">
+    <h2>Latest Talk</h2>
+    <div class="talk-card">
+      <a href="https://www.youtube.com/watch?v=ZD8x4xPq0Oc" target="_blank" rel="noopener" class="video-wrapper">
+        <img src="https://img.youtube.com/vi/ZD8x4xPq0Oc/maxresdefault.jpg" alt="Talk thumbnail">
+        <div class="play-button">
+          <svg width="68" height="48" viewBox="0 0 68 48">
+            <path d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#f00"></path>
+            <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+          </svg>
+        </div>
+      </a>
+      <div class="talk-info">
+                <h3 class="talk-title"><i>See the Movie, Hear the Song, Read the Book:</i>Extending MovieLens-1M, Last.fm-2K, and DBbook with Multimodal Data</h3>
+                <p class="talk-description">
+                  This talks discusses our paper entitled <i>See the Movie, Hear the Song, Read the Book</i>, in which we present the extension of three well-known recommendation benchmark datasets, spanning different domains, with multimodal features. Check out our <a href="https://dl.acm.org/doi/full/10.1145/3705328.3748162" target="_blank">publication</a> and our <a href="https://github.com/swapUniba/multimodal_ml1m_dbbook_lfm2k" target="_blank">repository</a> for more information!
+                </p>
+                <div class="talk-meta">
+                  <span class="talk-date">📅 25th September, 2025</span>
+                  <span class="talk-venue">📍 ACM RecSys 25</span>
+                </div>
+              </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.latest-talk-section {
+  margin-bottom: 4rem;
+  animation: fadeIn 0.8s ease;
+}
+
+.latest-talk-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.talk-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.talk-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  background: #000;
+  border-bottom: 1px solid var(--border);
+  display: block;
+  cursor: pointer;
+}
+
+.video-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-wrapper .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.video-wrapper:hover .play-button {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.talk-info {
+  padding: 2rem;
+}
+
+.talk-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.talk-description {
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.talk-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.talk-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .talk-info {
+    padding: 1.5rem;
+  }
+  
+  .talk-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>
+
+<style>
+.latest-talk-section {
+  margin-bottom: 4rem;
+  animation: fadeIn 0.8s ease;
+}
+
+.latest-talk-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.talk-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.talk-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  background: #000;
+  border-bottom: 1px solid var(--border);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.talk-info {
+  padding: 2rem;
+}
+
+.talk-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.talk-description {
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.talk-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.talk-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .talk-info {
+    padding: 1.5rem;
+  }
+  
+  .talk-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>
+
+
+
     </main>
 
     <footer>
